@@ -12,7 +12,7 @@ public class Test {
     }
 
     public void printLastName() {
-        lastName = "Uzun";
+        lastName = "Lebiga";
         System.out.println(lastName);
     }
 
