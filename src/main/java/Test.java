@@ -3,11 +3,20 @@ public class Test {
         System.out.println("Test");
     }
 
+    private String name;
+    private String lastName;
+
     public void printName(){
-        System.out.println("Diana");
+        name = "Diana";
+        System.out.println(name);
     }
 
     public void printLastName() {
-        System.out.println("Uzun");
+        lastName = "Uzun";
+        System.out.println(lastName);
+    }
+
+    public void printAll() {
+        System.out.println(name + " " + lastName + " " + " = Java guru");
     }
 }
