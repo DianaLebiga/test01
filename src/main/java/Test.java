@@ -6,4 +6,8 @@ public class Test {
     public void printName(){
         System.out.println("Diana");
     }
+
+    public void printLastName() {
+        System.out.println("Uzun");
+    }
 }
